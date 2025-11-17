@@ -40,7 +40,7 @@ let 更新时间 = 3;
 let userIDLow;
 let userIDTime = "";
 let proxyIPPool = [];
-let path = '/43.218.77.16:443';
+let path = '';
 let 动态UUID = userID;
 let link = [];
 let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
@@ -5848,3 +5848,4 @@ async function 解析地址端口(proxyIP) {
     return [地址, 端口];
 
 }
+
